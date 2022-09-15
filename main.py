@@ -37,7 +37,7 @@ while iniciar_trivia == True:
   while respuesta_1 not in ("a", "b", "c", "d"):
     respuesta_1 = input(
         "Debes responder a, b,c o d. Introduce nuevamente tu respuesta : ")
-  if respuesta_1 == "d":
+  if respuesta_1 == "c":
     puntaje += 5
     print(GREEN + "Correcto!" + RESET)
   else:
